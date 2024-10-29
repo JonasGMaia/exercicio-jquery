@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+    box-shadow: 0 6px 6px rgba(195, 0, 255, 0.096);
+}
+
+button:hover{
+    outline: none;
+    box-shadow: 0 4px 4px rgba(195, 0, 255, 0.096);
+    filter: opacity(60%);
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    box-shadow: 0 4px 4px rgba(195, 0, 255, 0.096);
+    display: flex;
+    justify-content:space-evenly;
+    position: fixed;
+    top:10px;
+    background-color: white;
+}
+
+header div{
+    display:block;
+    align-content: center;
+}
+
+header img{
+    height: 20px;
+    border: none;
+}
+
+header form{
+    align-items:center;
+    display:flex;
+    border: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:  rgba(195, 0, 255, 0.295);
+    padding-inline: 10px;
+    justify-content: space-between;
+}
+
+header input{
+    height: 30px;
+    border: none;
+    min-width: 93%;
+}
+
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bold;
+    font-size: 45px;
+    text-decoration: line-through white;
+    color: rgba(60, 0, 78, 0.966);
+}
+
+h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: smaller;
+    padding-bottom: 20px;
+    color: rgba(53, 0, 70, 0.562);
+}
+
+#entrada{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding-inline: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position:fixed;
+    top: 100px;
+}
+
+#entrada img{
+    height: 40px;
+}
+
+#entrada button{
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    margin-inline-start: 5%;
+}
+
+#entrada input{
+    width: 80%;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:  rgba(195, 0, 255, 0.295);
+    font-size: 18px;
+    padding-inline-start: 20px;
+}
+
+#lista{
+    display: grid;
+    width: 55%;
+    max-height: 50%;
+    overflow:auto;
+    position:fixed;
+    top:200px;
+    left:20%;
+    box-shadow: 0 4px 4px rgba(195, 0, 255, 0.096);
+    padding: 5px;
+}
+
+#lista img{
+    height: 15px;
+}
+
+#lista button{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+#lista li{
+    list-style: none;
+    margin-bottom: 15px;
+    display: flex;
+    cursor:default;
+    padding-bottom: 5px;
+}
+
+li:hover{
+    box-shadow: 0 4px 4px rgba(195, 0, 255, 0.356);
+
+}
+
+.tarefa{
+    width: 80%;
+    font-size: 18px;
+    padding-inline-start: 20px;
+}
+
+#controle{
+    display: flex;
+    background-color: white;
+    position:fixed;
+    bottom:20px;
+    min-width: 500px;
+    min-height: 31px;
+    border-style: ridge;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color:  rgba(195, 0, 255, 0.295);
+    justify-content: space-evenly;
+    padding: 5px;
+    box-shadow: 0 4px 4px rgba(195, 0, 255, 0.096);
+}
+
+#controle button{
+    align-content:center;
+    display: flex;
+    padding: 0px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+
+#controle img{
+    height: 18px;
+}
+
+#controle p{
+    padding-left: 3px;
+}
+
+.cortado{
+    text-decoration: line-through;
+    color: rgba(53, 0, 70, 0.562);
+}
+
+.destaque{
+    background-color: rgba(56, 0, 70, 0.562);
+}
+
